@@ -1,0 +1,143 @@
+.header{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+color: var(--color-white);
+}
+.container{
+    width:75%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 70px;
+    position: relative;
+}
+.h2{
+    margin-top: 7px;
+    font-weight: 600;
+}
+h5{
+    font-weight: 500;
+}
+.h5{
+    margin-top: 5px;
+    color: #999;
+}
+.header-btn{
+    margin-top: 50px;
+}
+.Ctva{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    bottom: 70px;
+    gap: .9rem;
+}
+.Ctva a{
+    color: var(--color-blue);
+}
+.header-border{
+    width: 2px;
+    height: 30px;
+    transform: translateX(8px);
+    border-left: 1px solid var(--color-blue);
+}
+.scroll{
+    position: absolute;
+    right: 0;
+    bottom: 110px;
+    transform: rotate(90deg);
+    color: var(--color-blue);
+}
+.scroll:hover{
+    color: var(--color-white);
+}
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-img{
+    width:360px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+    display: block;
+    object-fit: cover;
+}
+.tg-icon{
+transition: all .5s ease;
+}
+.tg-icon:hover{
+color: var(--color-white);
+}
+
+.btn{
+    padding: 12px 20px;
+    border:1px solid var(--color-blue);
+    margin: 10px;
+    border-radius: 7px;
+    color: var(--color-blue);
+    transition: all .5s ease;
+  }
+  .btn:hover{
+    background-color: var(--color-white);
+    color: var(--color-blue-black);
+  }
+  .btn-right{
+    background-color: var(--color-blue);
+    color:var(--color-blue-black);
+    transition: all .5s ease;
+  }
+  .btn-right:hover{
+    background-color: var(--color-white);
+    border-color: var(--color-white);
+  }
+@media(max-height:620px){
+    .header-img{
+        width:320px;
+        height:280px;
+    }
+    }
+@media(max-height:550px){
+.header-img{
+    width:80%;
+    height: 50%;
+}
+}
+@media(max-height:550px){
+    .header-img{
+        width:80%;
+        height: 50%;
+    }
+    }
+@media(max-width:768px){
+    .scroll{
+        display: none;
+    }
+    .Ctva{
+        display: none;
+    }
+}
+@media(max-width:500px){
+    .btn{
+        padding: 7px 10px;
+        border:1px solid var(--color-blue);
+        margin: 5px;
+        border-radius: 7px;
+      }
+}
+.typewriter{
+    color: white;
+}
+@media(max-width:430px){
+    .header-btn{
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-20px);
+    }
+}
