@@ -54,7 +54,7 @@
         margin-right: 6px;
         padding: 8px 15px;
         border-radius: 50%;
-        transition: all .5s ease;
+        transition: all 1s ease;
         font-size: 14px;
     }
 }
