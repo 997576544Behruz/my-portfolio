@@ -10,7 +10,7 @@ function expirence() {
           <h2 className='about-h2'>Mening Tajribam</h2>
         </div>
         <div className='expirence-main'>
-          <div className='expirence-main-container '>
+          <div className='expirence-main-container  '>
             <h1>Frontend Tajriba</h1>
             <div className='expirence-main-ul'>
               <ul className='expirence-main-left'>
@@ -26,13 +26,6 @@ function expirence() {
                   <div className='exp-frontend'>
                     <h3>Bootstrap</h3>
                     <h5>Yo'qori darajada</h5>
-                  </div>
-                </li>
-                <li className='expirence-item'>
-                  <div className='expirence-icons'><BiBadgeCheck /></div>
-                  <div className='exp-frontend'>
-                    <h3>Jquery</h3>
-                    <h5>Middle darajada</h5>
                   </div>
                 </li>
               </ul>
@@ -51,10 +44,44 @@ function expirence() {
                     <h5>Yo'qori darajada</h5>
                   </div>
                 </li>
+              </ul>
+            </div>
+          </div>
+          <div className='expirence-main-container '>
+            <h1>Backend Tajriba</h1>
+            <div className='expirence-main-ul'>
+              <ul className='expirence-main-left'>
                 <li className='expirence-item'>
                   <div className='expirence-icons'><BiBadgeCheck /></div>
                   <div className='exp-frontend'>
-                    <h3>React js</h3>
+                    <h3>Python</h3>
+                    <h5>Yo'qori darajada</h5>
+                  </div>
+                </li>
+                <li className='expirence-item'>
+                  <div className='expirence-icons'><BiBadgeCheck /></div>
+                  <div className='exp-frontend'>
+                    <h3>Django</h3>
+                    <h5>Yo'qori darajada</h5>
+                  </div>
+                </li>
+               </ul>
+              <ul className='expirence-main-left'>
+              <li className='expirence-item'>
+                  <div className='expirence-icons'><BiBadgeCheck /></div>
+                  <div className='exp-frontend '>
+                    <h3 className='expirence-item1'>PostgreSQL    </h3>
+                    <h5>Middle darajada</h5>
+                  </div>
+                </li>
+              <li className='expirence-item'>
+                  <div className='expirence-icons'><BiBadgeCheck /></div>
+                  <div className='exp-frontend'>
+                    <h3>Django Rest   
+                      <br></br>
+                       Framework
+
+                    </h3>
                     <h5>Middle darajada</h5>
                   </div>
                 </li>

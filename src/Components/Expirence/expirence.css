@@ -13,6 +13,7 @@
     color: white;
     background-color: var(--color-blue-black);
     transition: all 1s ease;
+    margin-top: 20px;
 }
 .expirence-main-container:hover{
     background-color: transparent;

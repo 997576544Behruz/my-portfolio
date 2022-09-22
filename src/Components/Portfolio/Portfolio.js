@@ -18,7 +18,7 @@ function Portfolio() {
                 </ul>
                 <ul className='portfolio-1'>
                   <li className='portfolio-1-img'> <img src={PORTIMG}/></li>
-                  <li className='portfolio-1-title'>Samarqand iqtisodiyot va servis instituti Samarqand iqtisodiyot va servis instituti </li>
+                  <li className='portfolio-1-title'>Samarqand iqtisodiyot va servis instituti</li>
                   <li className='portfolio-1-btn'><a href='#' className='portfolio-btn'>Ko'rish</a></li> 
                 </ul>
                 <ul className='portfolio-1'>

@@ -32,17 +32,17 @@ function about() {
                     <div className='about-right-block'>
                       <FaAward className='about-icon' />
                       <div className='about-exp'>Tajriba</div>
-                      <div className='about-number'>7+</div>
+                      <div className='about-number'>2+</div>
                     </div>
                     <div className='about-right-block'>
                       <FiUsers className='about-icon' />
-                      <div className='about-exp'>Daraja</div>
-                      <div className='about-number'>Junior</div>
+                      <div className='about-exp'>Mijozlar</div>
+                      <div className='about-number'>10+</div>
                     </div>
                     <div className='about-right-block'>
                       <VscFolderLibrary className='about-icon' />
                       <div className='about-exp'>Loyihalar</div>
-                      <div className='about-number'>4+</div>
+                      <div className='about-number'>10+</div>
                     </div>
                   </div>
                 </div>
@@ -55,7 +55,7 @@ function about() {
                   
                   </div>
                   <div className='about-btn'>
-                        <a href='#' className='btn btn-right'>Bog'lanish</a>
+                        <a href='#contact' className='btn btn-right'>Bog'lanish</a>
                   </div>
                 </div>
               </div>

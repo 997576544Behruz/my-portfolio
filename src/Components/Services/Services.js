@@ -38,36 +38,29 @@ function Services() {
                       </ul>
               </div>
               <div className='services-left'>
-              <h3 className='services-frontend'>Frontend Development</h3>
+              <h3 className='services-frontend'>Backend</h3>
                       <ul className='services-left-container'>
                           <li className='services-item'>
                             <AiOutlineCheck className='ser-icon'/>
-                            <span>HTML</span>
+                            <span>Foydalanish uchun qulay</span>
                           </li>
                           <li className='services-item'>
                             <AiOutlineCheck className='ser-icon'/>
-                            <span>CSS</span>
+                            <span>Ma'lumotlarni kiritish muammosiz</span>
                           </li>
                           <li className='services-item'>
                             <AiOutlineCheck className='ser-icon'/>
-                            <span>SASS</span>
+                            <span>Saytni boshqarish qiyinchiliklarsiz</span>
                           </li>
                           <li className='services-item'>
                             <AiOutlineCheck className='ser-icon'/>
-                            <span>BOOTSTRAP</span>
+                            <span>Moslashuvchan ma'lumotlar</span>
                           </li>
                           <li className='services-item'>
                             <AiOutlineCheck className='ser-icon'/>
-                            <span>JAVASCRIPT</span>
+                            <span>Ma'lumotlar bazasi bilan qulay ishlash</span>
                           </li>
-                          <li className='services-item'>
-                            <AiOutlineCheck className='ser-icon'/>
-                            <span>JQUERY</span>
-                          </li>
-                          <li className='services-item'>
-                            <AiOutlineCheck className='ser-icon'/>
-                            <span>REACT</span>
-                          </li>                         
+                                                   
                       </ul>
               </div>
               <div className='services-left'>

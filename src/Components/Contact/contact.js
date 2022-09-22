@@ -35,7 +35,7 @@ const form = useRef();
                 </div>
                 <div className='contact-left-item'>
                   <span> <FaFacebookMessenger /></span>
-                  <span>Instagram</span>
+                  <span>Facebook</span>
                   <span><a href='https://www.facebook.com/behruz.karimov.9693' className='contact-a'>Send a message</a> </span>
                 </div>
               </div>

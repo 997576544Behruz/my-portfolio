@@ -11,7 +11,7 @@ function header() {
         <h2 className='h2'>Behruz Karimov</h2>
         <h5 className='h5 typewriter' >
         <Typewriter 
-            words={['Frontend Dasturchi', 'Reactjs Dasturchi','Python Dasturchi']}
+            words={['Frontend Developer','Backend Developer']}
             loop={true}
             cursor
             cursorStyle='_'
@@ -23,7 +23,7 @@ function header() {
 
         <div className='header-btn'>
               <a href={IMG} className='btn' download >Dovnload CV</a>
-              <a href='#' className='btn btn-right'>Bog'lanish</a>
+              <a href='#contact' className='btn btn-right'>Bog'lanish</a>
         </div>
         <div className='header-footer'>
             <CTV/>
